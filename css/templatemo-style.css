@@ -157,7 +157,7 @@ footer {
 }
 #experience{
   text-align: center;
-  background: linear-gradient(to left,#1a191985,#11111188),url("../images/quotes-bg.jpg");
+  /* background: linear-gradient(to left,#1a191985,#11111188),url("../images/quotes-bg.jpg"); */
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -465,11 +465,14 @@ a:hover, a:active, a:focus {
     Experience section              
 -----------------------------------------*/
 
-#experience .experience-img {
-  background: url('../images/experience-img.jpg') no-repeat;
+#experience{
+  background: linear-gradient(to left,#0f0f0f9f,#111111e3),url(../images/libraryHall.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
-
+#experience p{
+  font-size: 19px;
+}
 #experience .media-heading {
   margin-bottom: 0px;
 }
@@ -489,13 +492,11 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #e9724c;
+  background: #d35931;
+
   background-repeat: no-repeat;
 }
 
-#education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
-}
 
 #education .media-heading {
   margin-bottom: 0px;
@@ -507,7 +508,7 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #0a2001;
+  color: #024349;
   font-weight: bold;
 }
 .omc-img{
